@@ -1,0 +1,41 @@
+.ul{
+	list-style-type: none;
+	text-align: center;
+	width: 70%;
+	align-content: center;
+	margin-left: 10%;
+	margin-right: 10%;
+ }
+
+ .li{
+	font-size:120%;
+	display: inline-table;
+	text-align: center;
+	margin: 0.5rem;
+	color:black;
+	background-color: #eeeeee;
+	opacity: 0.5;
+	border: 2px solid black;
+	border-radius: 5rem;
+	cursor:pointer;
+
+
+	padding-left: 5px;
+	 padding-right: 5px;
+	 width: 20px;
+
+
+ }
+
+ .a{
+	 padding: 2px 7px 2px 7px;
+
+	background-color: #eeeeee;
+	border: 2px solid rgb(182, 73, 73);
+	text-decoration: none;
+
+ }
+
+ .li:hover {
+	 text-decoration:rgb(182, 73, 73);
+   }

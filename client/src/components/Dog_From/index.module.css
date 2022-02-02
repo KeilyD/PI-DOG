@@ -1,0 +1,211 @@
+
+/* color invalidado de mi busqueda */
+
+
+input:valid,
+textarea:valid {
+    color: rgb(2, 2, 0);
+
+}
+
+input:invalid,
+textarea:invalid {
+    color: 1px solid rgb(5, 5, 5);
+
+}
+
+
+
+.divgral {
+
+        min-height: 100vmin;
+        background-image:url("../../images/hh.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        position: fixed;
+        display: block;
+
+        left: -5px;
+        top:-5px;
+        bottom:-5px;
+        right: -5px;
+        z-index: 1;
+
+
+      }
+
+
+  .fieldset{
+background-color: rgb(5, 5, 5);
+    position:fixed;
+    margin-left: 80%;
+    margin-top: 20%;
+
+}
+
+.legendField{
+    color:rgb(242, 248, 248);
+    font: bold 15px Verdana, Arial, Helvetica;
+
+}
+.radio{
+    margin-left: 10;
+    width: 70px;
+    height: 70px;
+    text-decoration: none;
+    margin-left: -25px;
+}
+.radioButon{
+    margin-left: 20px;
+    width: 20px;
+height: 20px;
+
+}
+
+  .form{
+
+        background: transparent;
+        border-radius: 20px;
+box-decoration-break: clone;
+    }
+
+  .titulo{
+    font: bold 40px Verdana, Arial, Helvetica;
+    height: 40%;
+    width: 80%;
+    color:black;
+    text-transform: uppercase;
+    margin-left: 50%;
+margin-top: -5%;
+    text-align: center;
+    line-height: 40px;
+
+
+    text-align: center;
+
+    letter-spacing: 1px;
+    word-spacing: 3px;
+
+  }
+
+  .label{
+
+    margin-block-start: 2pt;
+      color:white;
+	width:30%;
+    font: bold 20px Arial, Helvetica;
+	font-weight:bold;
+	display:inline-block;
+    text-align: right;
+}
+.coment{
+    margin-left: 0;
+    margin-top:0;
+    font: italic 15px Arial, Helvetica;
+    color: rgb(248, 2, 2);
+}
+
+  .input{
+      align-items: center;
+    width:60%;
+    height: 20px;
+	padding:1px 20px;
+	border:1px solid #c22c2c;
+	background-color:#f6f6f6;
+	margin:15px;
+	display:inline-block;
+    font: 16px Arial, Helvetica;
+    color:rgb(5, 0, 0);
+  }
+
+.select{
+    height: 25px;
+    font:  16px Arial, Helvetica;
+    border-radius: 8px;
+    margin-left: 10px;
+    text-decoration: none;
+    background-color: rgb(248, 252, 251);
+    color:1px solid rgb(255, 255, 255);
+}
+
+.newTemp{
+    width:30%;
+    font: bold 20px Arial, Helvetica;
+	font-weight:bold;
+
+    margin-left:80px;
+}
+
+.option{
+    background-color: white;
+    color: rgb(100, 97, 98);
+
+}
+
+.temps {
+    display: flex;
+    flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+.te{
+    margin-right: 8px;
+    font:italic;
+}
+.letraTemp{
+    font:italic;
+    color: rgb(194, 49, 49);
+}
+
+
+
+
+.tDelete{
+    float:left;
+    color: red;
+    border-radius: 8px;
+    border: 1px solid yellow;
+}
+
+.containerSubmit{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 7%;
+}
+.submit{
+	width:160px;
+	padding:6px 8px;
+	margin-top:70px;
+    border: 1px solid yellow;
+background-color: transparent;
+
+	font: bold 20px Arial, Helvetica;
+	color: white;
+    background-color: #da4f3c;
+        background-image: linear-gradient(#e6625b, #751d11);
+
+
+
+}
+
+.submit:hover{
+	cursor:pointer;
+    background-color: #752824;
+    background-image: linear-gradient(#751d11, #e6625b);
+}
+
+.submit:valid, textarea:valid {
+    color: white;
+}
+
+
+.error{
+
+    font: bold 15px Arial, Helvetica;
+    color:rgb(10, 1, 1);
+
+    position: relative;
+}

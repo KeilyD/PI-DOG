@@ -1,0 +1,62 @@
+
+
+.card{
+   scroll-padding-block: 2px;
+    height:300px;
+    width: 300px;
+    margin: 0.5%;
+    background-color: transparent;
+    font: bold 14px Arial, Helvetica;
+    font-size: 15px;
+    border: 1px solid #817c7b;
+
+    -webkit-box-shadow: 16px 27px 38px -3px rgba(13,1,1,1);
+-moz-box-shadow: 16px 27px 38px -3px rgba(13,1,1,1);
+box-shadow: 16px 27px 38px -3px rgba(13,1,1,1);
+
+
+
+}
+
+.img{
+    height: 50%;
+    width:50%;
+    display: block;
+    margin:auto;
+border-radius: 3%;
+
+    object-fit: cover;
+box-shadow: black;
+}
+
+.name{
+
+    font: bold 20px Arial, Helvetica;
+    text-decoration: tomato;
+    color: rgb(8, 0, 0);
+    outline: none;
+    text-align:center;
+
+}
+
+
+
+.text{
+    color: blanchedalmond;
+    margin: 1%;
+    font:  bold 15px Arial, Helvetica;
+    text-align:center;
+}
+
+.click{
+    text-align:center;
+    font: italic 15px  Helvetica,Arial;
+}
+
+.error{
+    font:  bold 40px Arial, Helvetica;
+    color: black;
+    border: 5px solid yellow;
+
+    text-align: center;
+}

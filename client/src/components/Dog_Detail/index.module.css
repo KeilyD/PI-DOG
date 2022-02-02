@@ -1,0 +1,140 @@
+
+
+.divgral {
+	min-height: 100vmin;
+	background-image:url("../../images/pantalladetalle.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	position: fixed;
+	display: block;
+	height: 100%;
+	left: -5px;
+	top:-5px;
+	bottom:-5px;
+	right: -5px;
+	z-index: 1;
+background-image: repeating-linear-gradient();
+
+  }
+
+
+
+
+
+
+  .conteinerGrid{
+	  width: 80%;
+	  height: 80%;
+	  margin: 0 auto;
+	  padding: 5px;
+
+	  display: grid;
+	  grid-template-columns: 50% 50%;
+	  grid-template-rows: 100%;
+
+  }
+
+  .raza{
+	  color:rgba(255, 255, 255, 0.89);
+	  text-shadow: 0 2px 0 rgba(243, 240, 240, 0.8);
+	  background-color: transparent;
+	  border-top-left-radius: 25px;
+	  border-top-right-radius: 25px;
+	  height: auto;
+	  width: auto;
+	  margin-left: 8%;
+	  margin-bottom:0;
+	  margin-top: 8%;
+	  text-align: center;
+	  font: bold 25px Arial, Helvetica;
+	  line-height: 80px;
+	  text-transform:uppercase;
+	  box-shadow: -26px -23px 33px -8px rgba(0,0,0,1);
+
+  }
+  .imagen{
+	  height: 70%;
+	  width:70%;
+	  margin-right: 0;
+	  border-radius: 5%;
+	  border: 1px solid #f1cdcd;
+	  object-fit: cover;
+	  padding: 0;
+	  float: right;
+	  box-shadow: -37px 42px 55px -12px rgba(0,0,0,1);
+  }
+
+  .peso{
+
+	  font: bold 20px Arial, Helvetica;
+	  height: auto;
+	  width: auto;
+	  border-top-right-radius: 25px;
+	  border-bottom-right-radius: 25px;
+	  margin-left: 0;
+	  margin-bottom:0;
+	  text-align: center;
+
+	  color: rgb(243, 243, 245);
+	  background-color: #da4f3c;
+	background-image: linear-gradient(#856563, #751d11);
+	border-radius: 5px;
+	text-shadow: 0 2px 0 rgba(32, 30, 30, 0.8);
+
+
+  }
+
+  .altura{
+	  width: 80%;
+
+	  background-color: transparent;
+	  margin-top: 2%;
+	  width:auto;
+	  color: rgb(243, 243, 245);
+
+  }
+  .vida{
+	  width: 80%;
+
+	  margin-top: 2%;
+	  position:static;
+	  width:auto;
+	  height: auto;
+	  color: rgb(243, 243, 245);
+
+
+  }
+  .temperamentos{
+	  width:auto;
+	  height: auto;
+	  font-size: auto;
+	  position: relative;
+
+	  background-color: transparent;
+	  margin-top: 2%;
+	  text-align: center;
+	  color: white;
+  }
+
+  .volver{
+
+	  height: 60px;
+	  width: 120px;
+	  text-decoration: none;
+	  margin-left: 85%;
+	  margin-top: 10%;
+	  color: white;
+	  font: bold 20px Arial, Helvetica;
+
+	  background-color: #da4f3c;
+		  background-image: linear-gradient(#856563, #751d11);
+		  border-radius: 5px;
+		  text-shadow: 0 2px 0 rgba(32, 30, 30, 0.8);
+
+	  }
+	  .volver:hover {
+		  background-color: #752824;
+		  background-image: linear-gradient(#751d11, #e6625b);
+
+	  }
