@@ -1,11 +1,10 @@
 import axios from "axios";
-const { URL_localhost } = require('../constants');
 //Hago la conexion de back con el fron (Para el el inicio del render de la App)
 
 export function getDogs() { //trae todos los dogs desde mi Api
 	return async function (dispatch) {
 		try {
-			var json = await axios.get(`${URL_localhost}dogs`);
+			var json = await axios.get(`/dogs`);
 
 			return dispatch({
 				type: "GET-DOGS",
@@ -21,7 +20,7 @@ export function getDogs() { //trae todos los dogs desde mi Api
 export function getTemperaments() { //trae los temps de mi Api
 	return async function (dispatch) {
 		try {
-			var json = await axios.get(`${URL_localhost}temperament`);
+			var json = await axios.get(`/temperament`);
 			return dispatch({
 				type: "GET-TEMPERAMENT",
 				payload: json.data,
@@ -37,7 +36,7 @@ export function searchByName(name) {
 	return async function (dispatch) {
 		try {
 			// const json = await axios.get("http://localhost:3001/dogs?name=" + name);
-			const json = await axios.get(`${URL_localhost}dogs?name=` + name);
+			const json = await axios.get(`/dogs?name=` + name);
 
 			return dispatch({
 				type: "GET-NAME-DOGS",
@@ -56,7 +55,7 @@ export function postDog(payload) { // el payload me llega del form, es el obj a 
 
 	return async function (dispatch) {
 
-		var json = await axios.post(`${URL_localhost}dogs`, payload); //le paso x BODY el obj creado en el form
+		var json = await axios.post(`/dogs`, payload); //le paso x BODY el obj creado en el form
 		// console.log("REGISTRO CREADO: ",json)
 		return json;
 
@@ -68,7 +67,7 @@ export function postDog(payload) { // el payload me llega del form, es el obj a 
 export function getDogDetail(id) {
 	return async function (dispatch) {
 		try {
-			var json = await axios.get(`${URL_localhost}dogs/` + id);
+			var json = await axios.get(`/dogs/` + id);
 
 			return dispatch({
 				type: "GET-DOG-DETAIL-ID",
