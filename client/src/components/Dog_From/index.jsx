@@ -65,7 +65,10 @@ export default function Dog_Form() {
 
     setObjForm({
       ...objForm,
-      temperaments: [...objForm.temperaments, e.target.value],
+      temperaments: objForm.temperaments.includes(e.target.value)
+      ? objForm.temperaments
+     : [...objForm.temperaments, e.target.value],
+    
     });
   }
 
