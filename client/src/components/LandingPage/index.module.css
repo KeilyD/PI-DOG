@@ -1,68 +1,49 @@
-.body {
-  min-height: 100vmin;
-  background-image:url(/src/images/fondo\ 01.jpg);
-  background-repeat: no-repeat;
+.img{
   background-size: cover;
-  background-position: center center;
-  position: fixed;
-  display: block;
-  height: 100%;
-  left: -5px;
-  top:-5px;
-  bottom:-5px;
-  right: -5px;
-  z-index: 1;
-
+   background-repeat: no-repeat;
+   background-position: center;
+   width : 100%;
+   justify-content: center;
+   min-height: 100vmin;
+   position: fixed;
+   display: block;
+   height: 105%;
+   top: -5px;;
+   bottom:-5px;
+   z-index: -1;
+   
 }
 
 
-
-
-  .botonIm {
-    margin-top: 14rem;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    width: 10rem;
-    height: 10rem;
-border-radius:50%;
+.button{
+    background-color: rgb(241, 21, 175);
+    color: rgb(247, 241, 241); 
+    border-radius: 5px;
+    cursor: pointer;
+    padding:10px; 
+    font-size: 30px;
+    margin-left: 60rem; 
+    border: none;
+    margin-top: 180px;
+    box-shadow: 0px 0px 15px 15px #02421d;
+    -webkit-box-shadow: 0px 0px 15px 15px #0f3d21b7;
+    border-radius:50%;
 -webkit-border-radius:10%;
-box-shadow: 0px 0px 15px 15px #fd0c04;
--webkit-box-shadow: 0px 0px 15px 15px #f30707b7;
-transform: rotate(360deg);
--webkit-transform: rotate(360deg);
-}
-
-/* Group 3 */
-
-
-
-
-
-
-  .title {
-
-line-height: -2rem;
-margin: 11rem;
-
-position:absolute;
-font-family: impact, sans-serif;
-font-size: 100px;
-text-shadow: 6px 6px 4px rgb(184, 175, 175);
-
-
-
-
-  }
-
-  .bienvenidos {
-margin-top: -5rem;
-font-family: impact, sans-serif;
-font-size: 50px;
-color: rgb(252, 248, 249);
-padding: 35rem;
-line-height: 3;
-text-shadow: -1px 0 rgba(0, 0, 0, 0.048), 1px 0 rgb(5, 5, 5), 0 1px rgb(3, 3, 3), 0 -1px rgb(12, 12, 12);
-text-shadow: 0 0 20px #5e5d58, 2px -2px 3px #f1f6f7, -4px -4px 5px #cecbc7, 5px -10px 6px #c4c0bc, -5px -12px 8px #cd0606, 0 -15px 20px #971616, 2px -15px 20px #493d3d00;
-  }
-
+   
+    }
+    .title {
+     
+        color: rgb(255, 255, 255);
+        text-shadow:0 1px 0 #ccc,
+        0 3px 0 #bbb,
+        0 3px 5px rgba(0, 0, 0, .2),
+        0 5px 10px rgba(0, 0, 0, .25),
+        0 10px 10px rgba(0, 0, 0, .2),
+        0 20px 20px rgba(0, 0, 0, .15);
+        margin-left: 50rem; 
+        font-size: 50px;
+                    
+                   
+                    
+    }
+    

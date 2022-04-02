@@ -8,8 +8,8 @@
     background-color: transparent;
     font: bold 14px Arial, Helvetica;
     font-size: 15px;
-    border: 1px solid #817c7b;
-
+    border: 1px solid rgb(241, 21, 175);
+    background-color: #f5dbe8;
     -webkit-box-shadow: 16px 27px 38px -3px rgba(13,1,1,1);
 -moz-box-shadow: 16px 27px 38px -3px rgba(13,1,1,1);
 box-shadow: 16px 27px 38px -3px rgba(13,1,1,1);
@@ -32,8 +32,8 @@ box-shadow: black;
 .name{
 
     font: bold 20px Arial, Helvetica;
-    text-decoration: tomato;
-    color: rgb(8, 0, 0);
+    text-decoration:   #f5dbe8;
+    color: black;
     outline: none;
     text-align:center;
 
@@ -42,7 +42,7 @@ box-shadow: black;
 
 
 .text{
-    color: blanchedalmond;
+    color: black;
     margin: 1%;
     font:  bold 15px Arial, Helvetica;
     text-align:center;
@@ -56,7 +56,7 @@ box-shadow: black;
 .error{
     font:  bold 40px Arial, Helvetica;
     color: black;
-    border: 5px solid yellow;
+   
 
     text-align: center;
 }

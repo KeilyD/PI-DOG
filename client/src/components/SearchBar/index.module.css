@@ -9,13 +9,13 @@
 
     height: 20px;
     width: 160px;
-    background-color: rgb(233, 227, 227);
+    background-color: #f5dbe8;
     font:  14px Arial, Helvetica;
     font-size: 15px;
     margin-top: 60px;
-    border: 1px solid crimson;
+    border: 1px solid  #fd0dad;
 margin-left: -170% ;
-
+border: 2px solid rgb(241, 21, 175);
 }
 
 .boton{
@@ -26,21 +26,21 @@ margin-left: -170% ;
     width:px;
 
     font-weight:700;
-
-    background: #da4f3c;;
+   ;
+    background:  #f5dbe8;
     border:0px;
 
-    border: 1px solid rgb(2, 0, 0);
+    border: 2px solid rgb(241, 21, 175);
     text-align: center;
 
 }
 
 
     .boton:hover {
-        background-color: #c20f05;
-        background-image: linear-gradient(#831608, #bb413b);
+        background-color: #fd0dad;
+        background-image: linear-gradient( #fd0dad, #f5dbe8);
 
     }
     .boton:valid, textarea:valid {
-        color: white;
+        color:black;
     }

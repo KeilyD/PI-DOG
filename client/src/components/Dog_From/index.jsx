@@ -100,7 +100,7 @@ export default function Dog_Form() {
 
   return (
     <div className={Styles.divgral}>
-
+   <h1 className={Styles.titu}>Nueva Raza</h1>
 
       <fieldset className={Styles.fieldset}>
           <legend className={Styles.legendField}>Elija una imágen</legend>
@@ -124,7 +124,7 @@ export default function Dog_Form() {
 
       <form className={Styles.form} onSubmit={(e) => handleSubmit(e)}>
 
-        <h1 className={Styles.titulo}>nueva raza</h1>
+      
 
         <div>
           <label className={Styles.label}>Nombre Raza:</label>
@@ -194,9 +194,10 @@ export default function Dog_Form() {
           )}
         </div>
 
+
         <div>
-          <label className={`${Styles.label}, ${Styles.newTemp}`}>Crear Temp/s :</label>
-          <span className={Styles.coment}>(dobleClick/agrega)</span>
+          <label className={`${Styles.label}`}>Crear Temp/s :</label>
+         
 
           <input
             className={Styles.input}
@@ -252,7 +253,7 @@ export default function Dog_Form() {
             className={Styles.submit}
             type="submit"
             name="crear"
-            value="CREAR"
+            value="Crear"
           />
         </div>
 

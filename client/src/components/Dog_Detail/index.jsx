@@ -7,7 +7,7 @@ import { getDogDetail } from "../../actions";
 import Styles from "./index.module.css";
 
 
-export default function DogDetail() { //renderiza la card detallada de una raza
+export default function Dog_Detail() { //renderiza la card detallada de una raza
   const { id } = useParams();//-->la obtengo con este hook, porqyue en el rout de mi App le especifico "/dogDetail/:id"
 
   //console.log("ID DEL DOG: ", id);
@@ -22,43 +22,57 @@ export default function DogDetail() { //renderiza la card detallada de una raza
 
   return (
 
-    <div className={Styles.divgral}>
-      {myDog ? (
-        <div id="conteinerGrid" className={Styles.conteinerGrid}>
-          <div id="1° columna">
-            <h1 className={Styles.raza}>{myDog.name}</h1>
+     
+   
+    <div className={Styles.General}>
+    <div className="contenedor"></div>
+    <div id="contenedor">
+                 
 
-            {myDog.image ? (
+ </div>
+      
+        <div id="conteinerGrid" className={Styles.conteinerGrid}>
+        <div id="1° columna">
+            <h1 className={Styles.nombre}>{myDog.name}</h1>
+           
+
+            
               <img
                 className={Styles.imagen}
                 src={myDog.image}
                 alt="imagen API no encontrada"
-              ></img>
-            ) : <h3>"no encontrada"</h3>}
-          </div>
+                ></img>
+               
+               
 
-          <div id="2°columna">
 
+              
+              </div>
+             
+              <div id="2°columna"> 
+              
+              
+            <div className={Styles.peso}>Peso: {myDog.weight} Kgs </div>
+            
+            <div className={Styles.peso} >Altura: {myDog.height} cm </div>
+
+            <div className={Styles.peso} >Prom. de vida: {myDog.life_span}</div>
+            
+            { <div className={Styles.peso} >Temperamento: {myDog.temperament}</div> }
+            
+           
+            
+            
             <Link  to="/home">
-              <button className={Styles.volver}>Volver</button>
+            <button className={Styles.volver}>Volver</button>
             </Link>
+            </div>
+            
+            </div>
+            
+           </div>     
 
-            <h3 className={Styles.peso}>Peso: {myDog.weight} Kgs </h3>
-
-            <h3 className={`${Styles.peso} ${Styles.altura}`}>Altura: {myDog.height} cm </h3>
-
-            <h3 className={`${Styles.peso} ${Styles.vida}`}>Prom. de vida: {myDog.life_span}</h3>
-
-            <h3 className={`${Styles.peso} ${Styles.temperamentos}`}>{myDog.temperament}</h3>
-
-          </div>
-
-        </div>
-      ) : (
-        <h3>"No se encontró esa raza"</h3>
-      )}
-    </div>
-  );
+  )
 }
 
 

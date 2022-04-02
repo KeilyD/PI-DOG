@@ -19,7 +19,7 @@ textarea:invalid {
 .divgral {
 
         min-height: 100vmin;
-        background-image:url("../../images/hh.jpg");
+        background-image:url("../../images/FondoH.webp");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
@@ -37,15 +37,16 @@ textarea:invalid {
 
 
   .fieldset{
-background-color: rgb(5, 5, 5);
+background-color: #f5dbe8;
     position:fixed;
     margin-left: 80%;
     margin-top: 20%;
+    border: 3px solid rgb(241, 21, 175);
 
 }
 
 .legendField{
-    color:rgb(242, 248, 248);
+    color:black;
     font: bold 15px Verdana, Arial, Helvetica;
 
 }
@@ -88,36 +89,50 @@ margin-top: -5%;
     word-spacing: 3px;
 
   }
+  .titu{
+    color: black;
+    text-shadow:0 1px 0 #ccc,
+    0 3px 0 #bbb,
+    0 3px 5px rgba(0, 0, 0, .2),
+    0 5px 10px rgba(0, 0, 0, .25),
+    0 10px 10px rgba(0, 0, 0, .2),
+    0 20px 20px rgba(0, 0, 0, .15);
+    margin-left: 45rem; 
+    font-size: 30px;
+    margin-top: 25px;
+  }
 
   .label{
 
-    margin-block-start: 2pt;
-      color:white;
+    margin-block-start: 1pt;
+      color:black;
 	width:30%;
     font: bold 20px Arial, Helvetica;
 	font-weight:bold;
 	display:inline-block;
     text-align: right;
 }
+
 .coment{
     margin-left: 0;
     margin-top:0;
     font: italic 15px Arial, Helvetica;
-    color: rgb(248, 2, 2);
+    color: black;
 }
 
   .input{
       align-items: center;
-    width:60%;
+    width:30%;
     height: 20px;
 	padding:1px 20px;
-	border:1px solid #c22c2c;
-	background-color:#f6f6f6;
+    border: 3px solid rgb(241, 21, 175);
+    background-color: #f5dbe8;
 	margin:15px;
 	display:inline-block;
     font: 16px Arial, Helvetica;
     color:rgb(5, 0, 0);
   }
+  
 
 .select{
     height: 25px;
@@ -125,8 +140,9 @@ margin-top: -5%;
     border-radius: 8px;
     margin-left: 10px;
     text-decoration: none;
-    background-color: rgb(248, 252, 251);
-    color:1px solid rgb(255, 255, 255);
+    background-color: #f5dbe8;
+    color:1px solid rgb(241, 21, 175);
+    border: 3px solid rgb(241, 21, 175);
 }
 
 .newTemp{
@@ -138,8 +154,8 @@ margin-top: -5%;
 }
 
 .option{
-    background-color: white;
-    color: rgb(100, 97, 98);
+    background-color: #f5dbe8;
+    color: black;
 
 }
 
@@ -156,7 +172,7 @@ margin-top: -5%;
 }
 .letraTemp{
     font:italic;
-    color: rgb(194, 49, 49);
+    color: black;
 }
 
 
@@ -164,9 +180,9 @@ margin-top: -5%;
 
 .tDelete{
     float:left;
-    color: red;
+    color: rgb(241, 21, 175);
     border-radius: 8px;
-    border: 1px solid yellow;
+    border: 3px solid rgb(241, 21, 175);
 }
 
 .containerSubmit{
@@ -179,13 +195,13 @@ margin-top: -5%;
 	width:160px;
 	padding:6px 8px;
 	margin-top:70px;
-    border: 1px solid yellow;
+    border: 3px solid rgb(241, 21, 175);
 background-color: transparent;
-
+border: 3px solid rgb(241, 21, 175);
 	font: bold 20px Arial, Helvetica;
-	color: white;
-    background-color: #da4f3c;
-        background-image: linear-gradient(#e6625b, #751d11);
+	color: black;
+    background-color:  #f5dbe8;
+        background-image: linear-gradient #f5dbe8, rgb(241, 21, 175);
 
 
 
@@ -193,12 +209,11 @@ background-color: transparent;
 
 .submit:hover{
 	cursor:pointer;
-    background-color: #752824;
-    background-image: linear-gradient(#751d11, #e6625b);
+      background-color:  #f5dbe8;
+      background-image: linear-gradient #f5dbe8, rgb(241, 21, 175);
 }
-
 .submit:valid, textarea:valid {
-    color: white;
+    color:black;
 }
 
 

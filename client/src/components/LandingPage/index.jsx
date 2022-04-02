@@ -1,31 +1,33 @@
-/* eslint-disable jsx-a11y/alt-text */
+
+import { useHistory } from 'react-router-dom'; 
 import React from "react";
-import { Link } from "react-router-dom";
+
 import styles from "./index.module.css";
-import ingreso from "../../images/ingreso.png";
+import dog from "../../images/dog.jpg";
 
 
 
 export default function LandingPage() {
-  return (
-<div className = {styles.body}>
 
-        <div>
-          <span className={styles.title}>Razas de Perros</span>
+    const history = useHistory(); 
+
+     function handle_home(e) {
+        e.preventDefault();
+        history.push("/Home");
+    } 
+    return (
+        <div class={styles.container} >
+            <img class={styles.img}type="image" src={dog} alt=""/>
+            <div>
+                 <div>
+                    <h3 class={styles.title} >Welcome Breeds Dog</h3>
+                </div>
+                <div>
+                    <button class={styles.button} onClick={handle_home}>Start Button</button>
+                </div> 
+            </div>
+
         </div>
-        <div>
-          <span className={styles.bienvenidos}>Bienvenidos</span>
-        </div>
-        <div>
-
-        </div>
-        <form>
-
-          <Link to="/home">
-         {  <input className={styles.botonIm} type="image" src={ingreso}></input>}
-          </Link>
-        </form>
-      </div>
-
-  );
+    )
 }
+
