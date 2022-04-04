@@ -153,7 +153,7 @@ export default function Home() {
         })}
       </div>
 
-      <span className={Styles.nroPag}> Pag. {pagActual}</span>
+    
 
 
 
