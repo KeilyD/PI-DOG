@@ -64,25 +64,22 @@ background-color: #f5dbe8;
 
 .link{
 
-
-    padding-top: 15rem;
-    text-align:center;
     text-decoration: none;
-    outline: none;
-    width: 190px;
-    margin: 10px;
-    height: 30px;
+    display: inline-block;
+    border-radius: 4px;
+ margin: -3px;
+   
     color: black;
-    font: bold 12px Arial, Helvetica;
+    text-align: center ;
+    font: bolder 12px Arial, Helvetica;
+     padding: 10px; 
+    width: 120px;
+    
+    border-radius: 28px;
+    margin: 5px, Helvetica;
     font-size: 12px;
     
- 
-
-
-
 }
-
-
 
 .navIzq{
     display: flex;
