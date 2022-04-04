@@ -1,18 +1,18 @@
 
 
 .card{
-    height:350px;
+   scroll-padding-block: 2px;
+    height:300px;
     width: 300px;
-    box-shadow: 0 20px 20px black ;
-    overflow: hidden;
-    margin: 30px;
-    text-align: center;
-    transition: all 0.25s;
+    margin: 0.5%;
+    background-color: transparent;
+    font: bold 14px Arial, Helvetica;
+    font-size: 15px;
+    border: 1px solid rgb(241, 21, 175);
     background-color: #f5dbe8;
-    opacity: 90% ;
-    border-radius:15px;
-    justify-content: space-between;
-    
+    -webkit-box-shadow: 16px 27px 38px -3px rgba(13,1,1,1);
+-moz-box-shadow: 16px 27px 38px -3px rgba(13,1,1,1);
+box-shadow: 16px 27px 38px -3px rgba(13,1,1,1);
 
 
 
@@ -57,6 +57,6 @@ box-shadow: black;
     font:  bold 40px Arial, Helvetica;
     color: black;
    
-    border: 5px solid red;
+
     text-align: center;
 }
