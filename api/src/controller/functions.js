@@ -3,7 +3,7 @@ const {
     YOUR_API_KEY
   } = process.env;
   
-const { Dog, Temperament } = require('../db');  // me traigo los modelos
+const { Dog, Temperament} = require('../db');  // me traigo los modelos
 
 //FUNCIONES QUE UTILIZA LA RUTA /Dogs
 
