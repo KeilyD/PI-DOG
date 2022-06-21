@@ -1,35 +1,25 @@
 .formul {
-    padding: 20px 20px 5px 35px;   /* margen con valores: arriba - derecha - abajo - izquierda */
-    font-family:verdana,arial;
-    font-size:9pt;
+    padding-top: 40px; 
+    
 }
 
 .input{
-
-
-    height: 20px;
-    width: 160px;
+   
+    height: 35px;
+    width: 600px;
     background-color: #f5dbe8;
-    font:  14px Arial, Helvetica;
+    font: bold 14px Arial, Helvetica;
     font-size: 15px;
-    margin-top: 60px;
-    border: 1px solid  #fd0dad;
-margin-left: -170% ;
-border: 2px solid rgb(241, 21, 175);
+    
+  border: 2px solid rgb(241, 21, 175);
 }
 
 .boton{
 
     color:rgb(0, 0, 0);
-    font: bold 15px Arial, Helvetica;
-    height: 35px;
-    width:px;
-
-    font-weight:700;
-   ;
+    font: bold 14px Arial, Helvetica;
+    height: 43px;
     background:  #f5dbe8;
-    border:0px;
-
     border: 2px solid rgb(241, 21, 175);
     text-align: center;
 

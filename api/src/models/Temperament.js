@@ -18,8 +18,8 @@ module.exports = (sequelize) => {
 	);
 };
 
-// /*utilizamos a sequelize para definir las tablas de base de datos
-// 	we use sequelize to define the database tables */
+/*utilizamos a sequelize para definir las tablas de base de datos
+	we use sequelize to define the database tables */
 
 // const { DataTypes } = require('sequelize');
 // // Exportamos una funcion que define el modelo

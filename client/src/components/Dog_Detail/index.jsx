@@ -2,9 +2,10 @@
 import React from "react";
 import { Link, useParams } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
-import { useEffect } from "react";
-import { getDogDetail } from "../../actions";
+import { useEffect, useState } from "react";
+import {getDogDetail } from "../../actions";
 import Styles from "./index.module.css";
+import Loader from "../Loader/loader";
 
 
 export default function Dog_Detail() { //renderiza la card detallada de una raza
@@ -18,17 +19,31 @@ export default function Dog_Detail() { //renderiza la card detallada de una raza
   } , [dispatch, id]);
 
   const myDog = useSelector((state) => state.detail); //traigo el estado detail
+  const [Loadin, setLoadin] = useState (false)
 
-
+  useEffect(() => {
+    setLoadin(true)
+    setTimeout(() =>{
+      setLoadin(false)
+    }, 1000)
+    
+  },[])
+  
   return (
-
-     
-   
-    <div className={Styles.General}>
+<div>
+    {
+      Loadin ?
+      <Loader
+      size={150}
+      Loadin={Loadin}
+      />
+      :
+      
+      <div className={Styles.General}>
     <div className="contenedor"></div>
     <div id="contenedor">
                  
-
+    
  </div>
       
         <div id="conteinerGrid" className={Styles.conteinerGrid}>
@@ -37,11 +52,11 @@ export default function Dog_Detail() { //renderiza la card detallada de una raza
            
 
             
-              <img
+               <img
                 className={Styles.imagen}
                 src={myDog.image}
                 alt="imagen API no encontrada"
-                ></img>
+                ></img> 
                
                
 
@@ -51,6 +66,7 @@ export default function Dog_Detail() { //renderiza la card detallada de una raza
              
               <div id="2°columna"> 
               
+
               
             <div className={Styles.peso}>Peso: {myDog.weight} Kgs </div>
             
@@ -60,32 +76,19 @@ export default function Dog_Detail() { //renderiza la card detallada de una raza
             
             { <div className={Styles.peso} >Temperamento: {myDog.temperament}</div> }
             
-           
-            
+    
+          
             
             <Link  to="/home">
             <button className={Styles.volver}>Volver</button>
             </Link>
+          
             </div>
-            
+        
             </div>
-            
-           </div>     
-
-  )
+            </div>
+  
+    }
+    </div>
+  );
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

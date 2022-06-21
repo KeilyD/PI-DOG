@@ -20,10 +20,10 @@ export default function LandingPage() {
             <img class={styles.img}type="image" src={dog} alt=""/>
             <div>
                  <div>
-                    <h3 class={styles.title} >Welcome Breeds Dog</h3>
+                    <h3 class={styles.title}>Bienvenidos a La APP de Razas de Perros</h3>
                 </div>
                 <div>
-                    <button class={styles.button} onClick={handle_home}>Start Button</button>
+                    <button class={styles.button} onClick={handle_home}>Inicio</button>
                 </div> 
             </div>
 

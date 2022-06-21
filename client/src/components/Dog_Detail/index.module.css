@@ -24,7 +24,8 @@
 
 
 .peso{
-
+	background-color: #f5dbe8;
+    border: 3px solid rgb(241, 21, 175);
 	 font: bold 14px Arial, Helvetica;
 	height: auto;
 	margin-top: 15px;
@@ -66,36 +67,20 @@
 
 	  }
 	  
-	  /* .loader {
-		font-size: 20px;
-		margin: 45% auto;
-		width: 1em;
-		height: 1em;
-		border-radius: 50%;
-		position: relative;
-		text-indent: -9999em;
-		-webkit-animation: load4 1.3s infinite linear;
-		animation: load4 1.3s infinite linear;
-	  } */
-	 
-/* .contenedor_carga{
-	background-color: rgb(250, 240, 245.0.9);
-	height: 100%;
+	 .General{
+		background-image:url("../../images/FondoH.webp");
+		position: absolute;
+		height: auto;
+		bottom: 0;
+		top: 0;
+		left: 0;
+		right: 0;
 	width: 100%;
-	position:  fixed;
-	z-index: 10000;
-}
-.carga{
-border: 15px solid rgb(224, 16, 16);
-border-top-color: #1b0ed6;
-border-style: groove;
-height: 100%;
-width: 100%;
-border-radius: 100%;
-position: absolute;
-top: 0;
-left: 0;
-right: 0 ;
-bottom: 0;
-margin: auto;
-} */
+	height: 100%;
+	   
+	   background-repeat:no-repeat;
+	  background-size:cover;
+		
+		
+		 min-height: 150vh;   
+	 }

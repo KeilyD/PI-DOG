@@ -1,0 +1,20 @@
+.loader {
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 38px;
+    padding: 20px;
+     margin-top:10rem;
+     left: 0px;
+    top: 0px;
+    opacity: .8;
+   
+
+    
+    
+   
+    
+  }
+  

@@ -1,100 +1,75 @@
 /*css del hom  */
 .body {
-
-
-    min-height: 100vmin;
-     background-image:url("../../images/Fhome.webp");
-
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: block;
-    left: -5px;
-    top:-5px;
-    bottom:-5px;
-    right: -5px;
-    z-index: 1;
-    width: 100%;
-
+    
+    background-image:url("../../images/Fhome.webp");
+    position: absolute;
+    height: auto;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+width: 100%;
+height: 100%;
+   
+   background-repeat:no-repeat;
+  background-size:cover;
+    
+    
+     min-height: 165vh;   
 
   }
-
-
-
-
-
-
-/* el naviguetion */
-.nav{
-  width: 90%;
-  margin: 0 auto;
-  padding: 5px;
-  display: flex;
-  flex-direction:row;
-
-
-
-  background-color: #fd0dad;
-  background-color: transparent;
-
- justify-content: space-between;
- align-items: flex-start;
- align-content: center;
+.containers{
+    padding-top: 30px;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+    display: grid;
+    justify-items: center;
+    grid-row-gap: 45px;
+  justify-content: center;
+  align-content: center;
+  margin-top: 20px;
+    
 }
-
 .select{
-
-text-decoration: none;
-margin: 10px;
-height: 30px;
-color:1 solid  rgb(252, 249, 249);
-font: bolder 12px Arial, Helvetica;
-font-size: 12px;
-
-background-color: #f5dbe8;
-    background-image: linear-gradient( #f5dbe8);
+    color: black;
+    background-color: #f5dbe8;
+    padding: 8px;
+    margin: 6px;
+    width: 255px;
+    height: 50px;
+    font: bold 14px Arial, Helvetica;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 7px;
     border: 2px solid rgb(241, 21, 175);
 
-
 }
-/* .select:hover {
-    background-color: #bb413b;
-    background-image: linear-gradient(#831608, #bb413b);
+.select:hover {
+	background-color: #fd0dad;
+    background-image: linear-gradient(#751164, #f048aa);
+   }
 
-} */
 
-.link{
-
-    text-decoration: none;
-    display: inline-block;
-    border-radius: 4px;
- margin: -3px;
-   
+ .link{
     color: black;
-    text-align: center ;
-    font: bolder 12px Arial, Helvetica;
-     padding: 10px; 
-    width: 120px;
-    
-    border-radius: 28px;
-    margin: 5px, Helvetica;
-    font-size: 12px;
-    
-}
-
-.navIzq{
-    display: flex;
-    flex-direction:row;
-    justify-content: left;
-    justify-content: space-between;
-}
-.navDer{
-
-    display: flex;
-    flex-direction:row;
-    justify-content: right;
-    justify-content: space-between;
-}
-
+    background-color: #f5dbe8;
+    padding: 8px;
+    margin: 6px;
+    width: 220px;
+    height: 30px;
+    font: bold 14px Arial, Helvetica;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 7px;
+    border: 2px solid rgb(241, 21, 175);
+    text-decoration: none;
+    margin-left: 50%;
+ }
+ .link:hover {
+	background-color: #fd0dad;
+    background-image: linear-gradient(#751164, #f048aa);
+   }
+ 
 .options{
     background-color: #f5dbe8;
     color: black;
@@ -103,28 +78,24 @@ background-color: #f5dbe8;
 
 .cards{
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: 28% 28% 28% 28%;
     grid-template-rows: 50% 50%;
     justify-content: space-around;
-
     width: 80%;
     margin: 0 auto;
-    padding: 5px;
+    padding: 8px; 
+    
 }
 
+ .contan{
+display: grid;
+grid-template-columns: auto auto ;
+justify-content: center;
+margin-right: 15rem;
 
-.nroPag{
-    font: bold 12px Arial, Helvetica;
-    color: black;
-    background-color: #f5dbe8;
-    border: 3px solid rgb(241, 21, 175);
-    border-radius: 50%;
-    padding: 10px;
-   margin: 10px;
-    text-align:center;
-    margin-left: 46%;
-  
-
-
-
+   
+} 
+.buscar{
+    display: grid;
+    justify-content: center;
 }

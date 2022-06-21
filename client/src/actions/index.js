@@ -53,7 +53,7 @@ export function searchByName(name) {
 // CONECTA CON EL BACK (post /dogs) // agrega una nueva raza
 export function postDog(payload) { // el payload me llega del form, es el obj a crear en la tabla
 
-	return async function (dispatch) {
+	return async function () {
 
 		var json = await axios.post(`/dogs`, payload); //le paso x BODY el obj creado en el form
 		// console.log("REGISTRO CREADO: ",json)

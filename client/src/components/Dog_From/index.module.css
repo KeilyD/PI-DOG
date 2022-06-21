@@ -130,7 +130,7 @@ margin-top: -5%;
 	margin:15px;
 	display:inline-block;
     font: 16px Arial, Helvetica;
-    color:rgb(5, 0, 0);
+    color:#f5dbe8;;
   }
   
 
@@ -209,8 +209,8 @@ border: 3px solid rgb(241, 21, 175);
 
 .submit:hover{
 	cursor:pointer;
-      background-color:  #f5dbe8;
-      background-image: linear-gradient #f5dbe8, rgb(241, 21, 175);
+    background-color: #fd0dad;
+    background-image: linear-gradient(#751164, #f048aa);
 }
 .submit:valid, textarea:valid {
     color:black;
